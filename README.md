@@ -18,3 +18,7 @@ Note that this plugin is under development and will be completed with the compan
 _0.1 (2012.06.11)_
 
 * Initial commit. Includes skeleton plugin, skeleton unit test, and WordPress Test dependencies.
+
+_0.2_ (2012.06.11)_
+
+* Final version. Includes a fully-functional, commented plugin, along with associated unit tests.
