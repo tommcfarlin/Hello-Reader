@@ -15,6 +15,6 @@ Note that this plugin is under development and will be completed with the compan
 
 ## Changelog
 
-_0.1 (2012.06.07)_
+_0.1 (2012.06.11)_
 
 * Initial commit. Includes skeleton plugin, skeleton unit test, and WordPress Test dependencies.
