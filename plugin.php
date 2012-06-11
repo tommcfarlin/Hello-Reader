@@ -25,12 +25,20 @@ License:
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
   
 */
-public class Hello_Reader {
-	 
-	function __construct() {
-		
-	} // end constructor
-  
-} // end class
-new Hello_Reader();
+
+// Only create an instance of the plugin if it doesn't already exists in GLOBALS
+if( ! array_key_exists( 'hello-reader', $GLOBALS ) ) { 
+
+	class Hello_Reader {
+		 
+		function __construct() {
+			
+		} // end constructor
+	  
+	} // end class
+	
+	// Store a reference to the plugin in GLOBALS so that our unit tests can access it
+	$GLOBALS['hello-reader'] = new Hello_Reader();
+	
+} // end if
 ?>
