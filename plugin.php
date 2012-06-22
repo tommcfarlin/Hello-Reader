@@ -46,14 +46,10 @@ if( ! array_key_exists( 'hello-reader', $GLOBALS ) ) {
 		 */
 		public function add_welcome_message( $content ) {
 			
-			if( is_single() ) {
-			
-				if( $this->is_from_twitter() ) { 
-					$content = 'Welcome from Twitter!' . $content;
-				} else if( $this->is_from_google() ) {
-					$content = 'Welcome from Google!' . $content;
-				} // end if
-				
+			if( $this->is_from_twitter() ) { 
+				$content = 'Welcome from Twitter!' . $content;
+			} else if( $this->is_from_google() ) {
+				$content = 'Welcome from Google!' . $content;
 			} // end if
 			
 			return $content;
