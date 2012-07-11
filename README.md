@@ -8,17 +8,22 @@ Hello Reader is a simple plugin used to demonstrate unit testing in a WordPress 
 
 ## Installation
 
-Note that this plugin is under development and will be completed with the companion series of articles is completed. During that time, these instructions will change.
+Note that this plugin is no longer under development and has been completed with [the companion series of articles](http://wp.tutsplus.com/series/the-beginners-guide-to-unit-testing/).
 
 1. Clone the repository or extract the archive to your `wp-content/plugins` directory
 1. Verify that the plugin is available in your Plugins dashboard
 
 ## Changelog
 
-_0.1 (2012.06.11)_
+_1.0 (2012.07.11)_
 
-* Initial commit. Includes skeleton plugin, skeleton unit test, and WordPress Test dependencies.
+* Final version.
+* Updated README - linked to source articles.
 
 _0.2_ (2012.06.11)_
 
 * Final version. Includes a fully-functional, commented plugin, along with associated unit tests.
+
+_0.1 (2012.06.11)_
+
+* Initial commit. Includes skeleton plugin, skeleton unit test, and WordPress Test dependencies.

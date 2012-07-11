@@ -3,9 +3,9 @@
 Plugin Name: Hello Reader
 Plugin URI: http://github.com/tommcfarlin/Hello-Reader
 Description: A simple plugin used to help demonstrate unit testing in the context of WordPress.
-Version: 0.2
+Version: 1.0
 Author: Tom McFarlin
-Author URI: http://tom.mcfarl.in
+Author URI: http://tommcfarlin.com
 Author Email: tom@tommcfarlin.com
 License:
 
